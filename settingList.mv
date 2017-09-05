@@ -1,0 +1,28 @@
+Mweb Backup
+
+Install List
+1. Atom
+2. Xcode
+3. CyberDuck
+4. WireShark
+5. 한글 뷰어
+6. Eve
+7. Keka
+8. Folding Text 
+9. iTerm
+10. iTerm - Pyenv
+11. Brew - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+12. vim
+13. zsh: ZSH_THEME="dallas"
+14. wget
+
+## zsh Setting
+Add this list blow
+
+    PYENV_ROOT="$HOME/.pyenv"
+    export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init -)"
+    
+    # language setting
+    export LC_ALL=ko_KR.UTF-8
+
